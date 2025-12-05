@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+div h2{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    height: 29vh;
+    animation: h2-text 6s;
+    animation-iteration-count: infinite;
+}
+
+div h2 span{
+    color: blue;
+    margin-top: 20px;
+}
+
+.container{
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .div1{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    margin: 10px 9px;
+    animation: div1 2s;
+    animation-iteration-count: infinite;
+}
+
+.container .div2{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 9px;
+    animation: div2 2s;
+    animation-delay: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+.container .div3{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 9px;
+    animation: div3 2s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+.container .div4{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 9px;
+    animation: div4 2s;
+    animation-delay: 0.9s;
+    animation-iteration-count: infinite;
+}
+
+.container .div5{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 9px;
+    animation: div5 2s;
+    animation-delay: 1.1s;
+    animation-iteration-count: infinite;
+}
+
+.container .div6{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 9px;
+    animation: div6 2s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  h2-text{
+    0%{
+        width: 0%;
+        text-align: center;
+        overflow: hidden;
+    }
+    20%{
+        width: 25%;
+        text-align: center;
+        overflow: hidden;
+    }
+    45%{
+        width: 50%;
+        text-align: center;
+        overflow: hidden;
+        font-weight: 900;
+    }
+    75%{
+        width: 75%;
+        text-align: center;
+        overflow: hidden;
+        font-weight: 900;
+    }
+    100%{
+        width: 98%;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+}
+
+@keyframes div1  {
+    0%{
+        transform: translateY(-20px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+
+@keyframes div2  {
+    0%{
+        transform: translateY(-20px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateY(20px)
+    }
+}
+
+@keyframes div3  {
+    0%{
+        transform: translateY(-20px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateY(20px)
+    }
+}
+
+@keyframes div4  {
+    0%{
+        transform: translateY(-20px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateY(20px)
+    }
+}
+
+@keyframes div5  {
+    0%{
+        transform: translateY(-20px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateY(20px)
+    }
+}
+
+@keyframes div6  {
+    0%{
+        transform: translateY(-20px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateY(20px);
+        background-color: rgb(0, 247, 255);
+        
+    }
+}
